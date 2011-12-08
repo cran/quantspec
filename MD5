@@ -1,0 +1,15 @@
+d9e013990ca8aa5b0764588df0d70bfc *DESCRIPTION
+a560ada83ee1b4498fe22838ef928fa8 *NAMESPACE
+8c829ef2da62af89078526b981eedadf *R/LaplacePeriodogram.R
+dc820008b4e5cfea2649d0a7c4f878a8 *R/ct.R
+6d541a761cab53bf1c16059934aa8ed0 *R/plotLaplacePeriodogram.R
+167fc16f4468232789127626e4b3e32f *R/smoothedLaplacePeriodogram.R
+f2caba44c46becfceceb4c1114ea8436 *demo/00Index
+7889318f440cd07a5a2e175b103d715e *demo/quantspecOnScreen.R
+7ae3c3eb63bb11914bc03b02bd9c9e63 *demo/quantspecPdf.R
+eef3eab4aa999e45f509a17162937ba7 *inst/CITATION
+7bded75900c7b79b527af219bd0421a2 *man/LaplacePeriodogram.Rd
+d09518aabdd4e76f0dd210ef39be57d7 *man/ct.Rd
+280d499a7ea83d7df3d2946e9006aae1 *man/plotLaplacePeriodogram.Rd
+a0f1b73f423edf8a4c7de99a40063cb2 *man/quantspec-package.Rd
+6c57aed86ecaea6d23c68de118a21422 *man/smoothedLaplacePeriodogram.Rd
