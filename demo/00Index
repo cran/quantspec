@@ -1,2 +1,4 @@
-quantspecOnScreen       Create, smooth and plot rank-based Laplace Periodograms on screen.
-quantspecPdf            Create, smooth and plot rank-based Laplace Periodograms to a pdf-file.
+wheatprices		Analysis of Beveridge's wheat price series
+sp500			Analysis of S&P 500 returns
+qar-simulation	Studying a QAR(1) process using simulations
+

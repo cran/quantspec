@@ -10,21 +10,7 @@ citEntry(entry="Manual",
          year = year,
          note = vers,
          textVersion =
-         paste("Tobias Kley (",
+         paste("Kley, T. (",
                year,
                "). quantspec: Quantile-based Spectral Analysis Functions. ",
                vers, ".", sep=""))
-
-citEntry(entry="Article",
-         title = "Of Copulas, Quantiles, Ranks and Spectra: an $L_1$-approach to spectral analysis",
-         author = personList(as.person("Holger Dette"),
-                             as.person("Marc Hallin"),
-                             as.person("Tobias Kley"),
-                             as.person("Stanislav Volgushev")),
-         journal = "arXiv",
-         year     = "2011",
-         url      = "http://arxiv.org/abs/1111.7205",
-         textVersion =
-         paste("Dette, H., Hallin, M., Kley, T. & Volgushev, S. (2011)",
-  	       "Of Copulas, Quantiles, Ranks and Spectra: an $L_1$-approach to spectral analysis.",
-               "http://arxiv.org/abs/1111.7205"))
