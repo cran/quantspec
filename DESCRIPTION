@@ -1,7 +1,7 @@
 Package: quantspec
-Version: 1.2-0
+Version: 1.2-1
 Encoding: UTF-8
-Date: 2015-10-19
+Date: 2016-03-27
 Title: Quantile-Based Spectral Analysis of Time Series
 Authors@R: c(person("Tobias", "Kley", role=c("aut","cre"),
     email = "t.kley@lse.ac.uk"),
@@ -19,7 +19,7 @@ BugReports: http://github.com/tobiaskley/quantspec/issues
 LazyData: TRUE
 LinkingTo: Rcpp
 Collate: 'Class-BootPos.R' 'generics.R' 'Class-LagOperator.R'
-        'Class-ClippedCov.R' 'aux-functions.R' 'Class-QSpecQuantity.R'
+        'Class-ClippedCov.R' 'Class-QSpecQuantity.R' 'aux-functions.R'
         'Class-FreqRep.R' 'Class-ClippedFT.R' 'Class-QuantileSD.R'
         'Class-IntegrQuantileSD.R' 'Class-Weight.R'
         'Class-KernelWeight.R' 'Class-LagEstimator.R' 'kernels.R'
@@ -27,10 +27,11 @@ Collate: 'Class-BootPos.R' 'generics.R' 'Class-LagOperator.R'
         'Class-QRegEstimator.R' 'Class-QuantilePG.R'
         'Class-SmoothedPG.R' 'Class-SpecDistrWeight.R' 'RcppExports.R'
         'data.R' 'deprecated.R' 'models.R' 'quantspec-package.R'
+RoxygenNote: 5.0.1
 NeedsCompilation: yes
-Packaged: 2015-10-19 21:06:13 UTC; kley
+Packaged: 2016-03-27 18:46:32 UTC; kley
 Author: Tobias Kley [aut, cre],
   Stefan Birr [ctb] (Contributions to lag window estimation)
 Maintainer: Tobias Kley <t.kley@lse.ac.uk>
 Repository: CRAN
-Date/Publication: 2015-10-20 10:57:57
+Date/Publication: 2016-03-28 00:27:55
