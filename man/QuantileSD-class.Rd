@@ -2,8 +2,8 @@
 % Please edit documentation in R/Class-QuantileSD.R
 \docType{class}
 \name{QuantileSD-class}
-\alias{QuantileSD}
 \alias{QuantileSD-class}
+\alias{QuantileSD}
 \title{Class for a simulated quantile (i. e., Laplace or copula)
 density kernel.}
 \description{
@@ -64,9 +64,11 @@ periodograms}
 \item{\code{stdError}}{an \code{array} used to store the estimated standard error of the mean
 of the simulated quantile periodograms}
 }}
+
 \examples{
 ## This script can be used to create and store a QuantileSD object
 
+\dontrun{
 ## Parameters for the simulation:
 R <- 50                      # number of independent repetitions;
                              # R should be much larger than this in practice!
@@ -122,6 +124,7 @@ Coh <- getCoherency(qsd, freq = 2*pi*(0:64)/128)
 ## tau1 = 0.3 and tau2 = 0.6
 plot(x = 2*pi*(0:64)/128, Re(Coh[,1,3,2,6]), type="l")
 }
+}
 \references{
 Dette, H., Hallin, M., Kley, T. & Volgushev, S. (2015).
 Of Copulas, Quantiles, Ranks and Spectra: an \eqn{L_1}{L1}-approach to
@@ -142,4 +145,3 @@ Examples for implementations of functions \code{ts} can be found at:
 \code{\link{ts-models}}.
 }
 \keyword{S4-classes}
-

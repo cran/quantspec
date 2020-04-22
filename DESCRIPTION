@@ -1,10 +1,10 @@
 Package: quantspec
-Version: 1.2-1
+Version: 1.2-2
 Encoding: UTF-8
-Date: 2016-03-27
+Date: 2020-04-22
 Title: Quantile-Based Spectral Analysis of Time Series
 Authors@R: c(person("Tobias", "Kley", role=c("aut","cre"),
-    email = "t.kley@lse.ac.uk"),
+    email = "tobias.kley@bristol.ac.uk"),
     person("Stefan", "Birr",  role = c("ctb"), 
 	comment = "Contributions to lag window estimation", email = "stefan.birr@rub.de"))
 Depends: R (>= 3.0.0), stats4
@@ -27,11 +27,11 @@ Collate: 'Class-BootPos.R' 'generics.R' 'Class-LagOperator.R'
         'Class-QRegEstimator.R' 'Class-QuantilePG.R'
         'Class-SmoothedPG.R' 'Class-SpecDistrWeight.R' 'RcppExports.R'
         'data.R' 'deprecated.R' 'models.R' 'quantspec-package.R'
-RoxygenNote: 5.0.1
+RoxygenNote: 7.1.0
 NeedsCompilation: yes
-Packaged: 2016-03-27 18:46:32 UTC; kley
+Packaged: 2020-04-22 08:35:44 UTC; tk18582
 Author: Tobias Kley [aut, cre],
   Stefan Birr [ctb] (Contributions to lag window estimation)
-Maintainer: Tobias Kley <t.kley@lse.ac.uk>
+Maintainer: Tobias Kley <tobias.kley@bristol.ac.uk>
 Repository: CRAN
-Date/Publication: 2016-03-28 00:27:55
+Date/Publication: 2020-04-22 10:02:09 UTC

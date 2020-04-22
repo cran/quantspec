@@ -116,6 +116,7 @@ setClass(
 #'          \code{oldR + R} independent repetitions.
 #'
 #' @examples
+#' \dontrun{
 #' # First simulate a copula spectral density from R=20 independent runs.
 #' csd <- quantileSD(N=2^9, ts=ts1, levels.1=c(0.25,0.5), type="copula", R=20)
 #'
@@ -129,6 +130,7 @@ setClass(
 #' # Check out the (more precise) result:
 #' getR(csd)
 #' plot(csd)
+#' }
 ################################################################################
 setMethod(f = "increasePrecision",
     signature = signature("QuantileSD"),
@@ -513,7 +515,7 @@ setMethod(f = "getCoherency",
 #      }
 #
 
-    #if (class(object@weight) != "KernelWeight") {
+    #if (!inherits(object@weight, "KernelWeight")) {
     #  error("Coherency can only be determined if weight is of type KernelWeight.")
     #}
     d <- union(d1,d2)
