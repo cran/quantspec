@@ -1,9 +1,9 @@
-7b60e58a576818696746a78f5891c736 *DESCRIPTION
+262865b1ef6423d7a3293f26eedf7f4c *DESCRIPTION
 e31119f33eaa46c598cb3d4e1797debf *NAMESPACE
-33c77e902dc7cd54d6405b26e2925bb0 *NEWS
+83f71d7736626de41f57c1238327bf37 *NEWS
 d8e1258a71232df85f2e7ab467ff6165 *R/Class-BootPos.R
 923ff4be27126aa2977989fa7506d694 *R/Class-ClippedCov.R
-ff2c53cf803168667b350c6f30d74f46 *R/Class-ClippedFT.R
+0808d9f1f162c5c11dc99c1b63b243d3 *R/Class-ClippedFT.R
 016054ae905a2aa2cdf5827dde636831 *R/Class-FreqRep.R
 32615bd123b1e7d8f86a08958ce0c88e *R/Class-IntegrQuantileSD.R
 a6b77399b4829d88cd84a9aa5c400b08 *R/Class-KernelWeight.R
@@ -25,8 +25,8 @@ b0b0417ad011573979a0ab325e572b85 *R/data.R
 6a460937818266dd842e04bda87fb7a3 *R/generics.R
 4a99cbd118a5e171e8da1d740cb888be *R/kernels.R
 29a913dc171c5bca99a5bcc85671e219 *R/models.R
-8f5c12d054b26ed4e53ddd1396c1aeec *R/quantspec-package.R
-b6227edf39d0c59a58e600f14fd61066 *build/vignette.rds
+90889f3bf29d68082419ecc6a1444bdc *R/quantspec-package.R
+e3564e55768fd9963ad229446d4d4c1d *build/vignette.rds
 02584086f53876603677a802dfb536e5 *data/datalist
 a337847aa8816be121ef40e6c75e5425 *data/sp500.rdata
 4efafe8035d803be0eea9c305add8818 *data/wheatprices.rdata
@@ -35,9 +35,9 @@ a81a9ff43a98991d74e018266c5f38a2 *demo/qar-simulation.R
 6239264ed5a373de1edccdb55041ed48 *demo/sp500.R
 48aadcd902ee241d4e055c0dd03a5bc6 *demo/wheatprices.R
 512e6cf8af30b659551dd2f5b141dd56 *inst/CITATION
-0eb72fbee506835cc5a384288908df15 *inst/doc/quantspec.R
+8a5ec6fae307a093fc38e940c2dd5ea2 *inst/doc/quantspec.R
 66fd434fbca732dcbc9b87bb72432f91 *inst/doc/quantspec.Rnw
-1d08995908256487bc4078b31ff3c0cc *inst/doc/quantspec.pdf
+2ebf502f95eba7746502b86ab8ca05c0 *inst/doc/quantspec.pdf
 5aa270c6b4288bc3f012258a92ea456e *inst/examples/FreqRep.R
 c12eef720ee2b9c27e36b21e87912658 *inst/examples/QRegEstimator-parallel.R
 76e741995eb616bfb8bc73d94caea23d *inst/examples/QuantilePG.R
@@ -176,7 +176,7 @@ f0a0b54e261807fb2bf43ba2d602e1ac *src/RcppExports.cpp
 6fd7c93afd19474f8eee7dc5743d5e15 *tests/testthat.R
 2a10cbfa1281f33066d80c99d0a3d156 *tests/testthat/load-ref.R
 3494d753c4877e6d4d392eb5e4441487 *tests/testthat/test-ClippedCov.R
-05d2c7269afc8d023d4080b9beff385a *tests/testthat/test-ClippedFT.R
+ecceec14ec86f2d0192a618bf1a337e6 *tests/testthat/test-ClippedFT.R
 0ac505767827125221afdab1e5489d61 *tests/testthat/test-LagEstimator.R
 48573bafac787132934d79fc60a14dbf *tests/testthat/test-QuantilePG.R
 8236e920fc127a9188cae6ffad0cd31d *tests/testthat/test-SmoothedPG.R

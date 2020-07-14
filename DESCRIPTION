@@ -1,7 +1,7 @@
 Package: quantspec
-Version: 1.2-2
+Version: 1.2-3
 Encoding: UTF-8
-Date: 2020-04-22
+Date: 2020-07-14
 Title: Quantile-Based Spectral Analysis of Time Series
 Authors@R: c(person("Tobias", "Kley", role=c("aut","cre"),
     email = "tobias.kley@bristol.ac.uk"),
@@ -12,7 +12,8 @@ Suggests: testthat
 Imports: methods, graphics, quantreg, abind, zoo, snowfall, Rcpp (>=
         0.11.0)
 Description: Methods to determine, smooth and plot quantile periodograms for
-    univariate and multivariate time series.
+    univariate and multivariate time series. See Kley (2016) <doi:10.18637/jss.v070.i03>
+    for a description and tutorial.
 License: GPL (>= 2)
 URL: http://github.com/tobiaskley/quantspec
 BugReports: http://github.com/tobiaskley/quantspec/issues
@@ -29,9 +30,9 @@ Collate: 'Class-BootPos.R' 'generics.R' 'Class-LagOperator.R'
         'data.R' 'deprecated.R' 'models.R' 'quantspec-package.R'
 RoxygenNote: 7.1.0
 NeedsCompilation: yes
-Packaged: 2020-04-22 08:35:44 UTC; tk18582
+Packaged: 2020-07-14 18:15:05 UTC; tk18582
 Author: Tobias Kley [aut, cre],
   Stefan Birr [ctb] (Contributions to lag window estimation)
 Maintainer: Tobias Kley <tobias.kley@bristol.ac.uk>
 Repository: CRAN
-Date/Publication: 2020-04-22 10:02:09 UTC
+Date/Publication: 2020-07-14 22:50:02 UTC
